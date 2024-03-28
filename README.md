@@ -7,7 +7,7 @@ face enhancement, face enhancement level, face parsing, cut in/cut out video pos
 
 select region of target face, exclude chin, keep original mouth, keep audio...
 
-
+See setup.txt for installation (anaconda) and don't forget ffmpeg
 
 Inspired by: 
 
