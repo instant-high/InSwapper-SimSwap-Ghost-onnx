@@ -1,0 +1,6 @@
+place here:
+
+ghost_arcface_backbone.onnx
+ghost_unet_2_block.onnx
+simswap.onnx
+simswap_arcface_backbone.onnx

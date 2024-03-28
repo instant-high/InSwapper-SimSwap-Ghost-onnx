@@ -1,0 +1,22 @@
+setup inswapper, simswap, ghost full ONNX
+
+clone repo
+
+conda create -n ENV_NAME python==3.10
+conda activate ENV_NAME
+cd c:\env\env_path
+
+pip install -r requirements.txt
+
+pip install insightface>=0.7.3 (never worked for me but downloaded file did):
+pip install insightface-0.7.3-cp310-cp310-win_amd64.whl
+
+pip install onnxruntime
+
+pip install opencv-contrib-python
+
+############# for Nvidia GPU (eg. RTX3060) ###############
+
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+pip uninstall onnxuntime
+pip install onnxruntime-gpu

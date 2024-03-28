@@ -1,0 +1,4 @@
+https://drive.google.com/drive/folders/1xJrWTsboaOcRt_i3hagOCeh4rZZbe03z?usp=sharing
+
+copy each onnx model to the corresponding folder
+see models.txt in folders
