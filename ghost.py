@@ -389,7 +389,7 @@ def video_swap(source_image, target_video, result_video, enhance_mode):
             mask = imutils.rotate_bound(mask, angle *-1)
             #print (swapped_face.dtype, face_region_copy.dtype)
             #input (mask.shape)
-            cv2.imshow("M",mask)
+            #cv2.imshow("M",mask)
             
             swapped_face = cv2.resize(swapped_face,(224,224))
             swapped_orig = cv2.resize(swapped_orig,(224,224))    
